@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import Swal from 'sweetalert2'
 import { Input, Textarea, Select, Option } from "@material-tailwind/react"
 
+
 const Create = () => {
     const [title, setTitle] = useState('')
     const [content, setContent] = useState('')
